@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeatherChatbot", "WeatherChatbot", "{1EA65FB8-FB3F-0F91-E215-BA61CAF0352E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend-dotnet", "backend-dotnet", "{12984E78-1C7F-9512-2C2C-38CA280321BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBot.Api", "WeatherChatbot\backend-dotnet\WeatherBot.Api\WeatherBot.Api.csproj", "{10E478B5-1827-E220-3BE6-673953BC1AAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10E478B5-1827-E220-3BE6-673953BC1AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E478B5-1827-E220-3BE6-673953BC1AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E478B5-1827-E220-3BE6-673953BC1AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E478B5-1827-E220-3BE6-673953BC1AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12984E78-1C7F-9512-2C2C-38CA280321BB} = {1EA65FB8-FB3F-0F91-E215-BA61CAF0352E}
+		{10E478B5-1827-E220-3BE6-673953BC1AAD} = {12984E78-1C7F-9512-2C2C-38CA280321BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D53E085D-D32D-4E3A-8647-CDCD9BE5EDBD}
+	EndGlobalSection
+EndGlobal
