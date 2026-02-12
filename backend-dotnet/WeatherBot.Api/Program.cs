@@ -1,9 +1,22 @@
 using WeatherBot.Api.Models;
 using WeatherBot.Api.Services;
+using DotNetEnv;
 
+
+// Load environment variables from .env
+Env.Load();
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.Configure<WeatherApiOptions>(builder.Configuration.GetSection("WeatherApi"));
+// Bind WeatherApiOptions from configuration and environment
+builder.Services.Configure<WeatherApiOptions>(options =>
+{
+    builder.Configuration.GetSection("WeatherApi").Bind(options);
+    var envApiKey = Environment.GetEnvironmentVariable("WEATHER_API_KEY");
+    if (!string.IsNullOrWhiteSpace(envApiKey))
+    {
+        options.ApiKey = envApiKey;
+    }
+});
 builder.Services.AddHttpClient<IWeatherClient, WeatherApiClient>();
 builder.Services.AddSingleton<LocationParser>();
 builder.Services.AddScoped<WeatherChatService>();

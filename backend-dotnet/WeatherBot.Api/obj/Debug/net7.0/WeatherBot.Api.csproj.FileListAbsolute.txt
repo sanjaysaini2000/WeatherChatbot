@@ -34,3 +34,6 @@ D:\Sandbox_2026\WeatherChatbot\backend-dotnet\WeatherBot.Api\obj\Debug\net7.0\re
 D:\Sandbox_2026\WeatherChatbot\backend-dotnet\WeatherBot.Api\obj\Debug\net7.0\WeatherBot.Api.pdb
 D:\Sandbox_2026\WeatherChatbot\backend-dotnet\WeatherBot.Api\obj\Debug\net7.0\WeatherBot.Api.genruntimeconfig.cache
 D:\Sandbox_2026\WeatherChatbot\backend-dotnet\WeatherBot.Api\obj\Debug\net7.0\ref\WeatherBot.Api.dll
+D:\Sandbox_2026\WeatherChatbot\backend-dotnet\WeatherBot.Api\bin\Debug\net7.0\DotNetEnv.dll
+D:\Sandbox_2026\WeatherChatbot\backend-dotnet\WeatherBot.Api\bin\Debug\net7.0\Sprache.dll
+D:\Sandbox_2026\WeatherChatbot\backend-dotnet\WeatherBot.Api\obj\Debug\net7.0\WeatherBot.Api.sourcelink.json
