@@ -6,7 +6,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeatherChatbot", "WeatherCh
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend-dotnet", "backend-dotnet", "{12984E78-1C7F-9512-2C2C-38CA280321BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBot.Api", "WeatherChatbot\backend-dotnet\WeatherBot.Api\WeatherBot.Api.csproj", "{10E478B5-1827-E220-3BE6-673953BC1AAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBot.Api", "backend-dotnet\WeatherBot.Api\WeatherBot.Api.csproj", "{10E478B5-1827-E220-3BE6-673953BC1AAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
